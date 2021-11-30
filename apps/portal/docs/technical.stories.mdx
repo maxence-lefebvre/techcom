@@ -1,0 +1,56 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Docs/Requirements/Functional" />
+
+# TechIntelligence
+
+## Requirements
+
+### Functional
+
+#### Authn
+
+1. A user MUST be able to log in using its GitHub account.
+1. A "tenant owner" "logged-in" user MUST be "admin" role.
+1. A "NOT tenant owner" "logged-in" user MUST be "default" role.
+1. A "NOT logged-in" user MUST be "guest" role.
+
+#### Events
+
+1. A "logged-in" user MUST be able to add an event.
+1. A "logged-in" user MUST be able to update/delete (U/D) an event they added.
+1. A user MUST be able to see created events in a calendar view.
+1. A user with "admin" role MUST be able to U/D any event.
+
+#### TechIntelligence
+
+1. A "logged-in" user MUST be able to share a post : a link with a short description and some tags.
+1. A "logged-in" user MUST be able to share the previous post "anonymously".
+1. A "logged-in" user MUST be able to U/D a post they shared.
+1. A user MUST be able to find those posts using category listing.
+1. A user with "admin" role MUST be able to U/D any post.
+
+#### Out Of App Sharing
+
+###### Slack
+
+1. A "logged-in" user MUST be able to link Slack workspaces to the app.
+1. A "logged-in" user with "linked Slack workspaces" MUST be able to select channels in which the app will post events / posts updates (per category).
+1. A "logged-in" user with "linked Slack workspaces" MUST be able to remove a Slack integration.
+
+###### Twitter
+
+1. A "logged-in" user MUST be able to link their Twitter account to the app.
+1. A "logged-in" user with "linked Twitter account" MUST be able to unlink their Twitter account.
+1. A "logged-in" user with "linked Twitter account" MUST be able to cross-post a tech post to Twitter.
+
+### Technical
+
+1. App MUST be multi-tenant. A tenant may represent a geographical area.
+1. App SHOULD be i18n.
+1. A tenant owner MUST be retrieved from "TENANTOWNERS" in repository.
+1. TENANTOWNERS MUST follow following specifications:
+  1. A line starting with `#` is a comment and MUST be ignored.
+  1. Empty lines MUST be ignored.
+  1. A non-ignored line MUST be space separated.
+  1. A non-ignored line MUST have its parts in this order : "tenant name in lowercase" "GitHub group starting with @" (ex: "lille @myteam-lille")

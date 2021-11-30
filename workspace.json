@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "portal": "apps/portal",
+    "portal-e2e": "apps/portal-e2e"
+  }
+}

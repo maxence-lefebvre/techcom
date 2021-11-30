@@ -1,0 +1,23 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Docs/About" />
+
+# TechIntelligence
+
+## Requirements
+
+### Functional
+
+1. A user MUST be able to log in using its GitHub account.
+1. A "logged-in" user from the GitHub team "" MUST be "admin" role.
+1. A "logged-in" user NOT from the GitHub team "" MUST be "default" role.
+1. A "NOT logged-in" user MUST be "guest" role.
+1. A "logged-in" user MUST be able to add an event.
+1. A "logged-in" user MUST be able to update an event they created.
+1. A "logged-in" user MUST be able to delete an event they created.
+1. A user MUST be able to see created events in a calendar view.
+
+### Technical
+
+1. App MUST be multi-tenant.
+1. Tenant owner group MUST be recovered from ".TENANTOWNER" in repository.
