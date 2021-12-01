@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@techintell/api/feature-multitenancy/domain": [
+        "libs/api/feature-multitenancy/domain/src/index.ts"
+      ],
+      "@techintell/api/feature-multitenancy/ui-api": [
+        "libs/api/feature-multitenancy/ui-api/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

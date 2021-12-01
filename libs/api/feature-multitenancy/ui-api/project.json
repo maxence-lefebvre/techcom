@@ -1,0 +1,23 @@
+{
+  "root": "libs/api/feature-multitenancy/ui-api",
+  "sourceRoot": "libs/api/feature-multitenancy/ui-api/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/api/feature-multitenancy/ui-api/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/api/feature-multitenancy/ui-api"],
+      "options": {
+        "jestConfig": "libs/api/feature-multitenancy/ui-api/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
