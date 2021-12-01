@@ -1,4 +1,4 @@
-import { Opaque } from '@techintell/shared/extensions/lang';
+import { Opaque } from '@techcom/shared/extensions/lang';
 
 const $TenantId$ = Symbol('TenantId');
 export type TenantId = Opaque<string, typeof $TenantId$>;
