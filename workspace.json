@@ -5,6 +5,7 @@
     "api-feature-multitenancy-domain": "libs/api/feature-multitenancy/domain",
     "api-feature-multitenancy-ui-api": "libs/api/feature-multitenancy/ui-api",
     "portal": "apps/portal",
-    "portal-e2e": "apps/portal-e2e"
+    "portal-e2e": "apps/portal-e2e",
+    "shared-extensions-lang": "libs/shared/extensions/lang"
   }
 }

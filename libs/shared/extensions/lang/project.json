@@ -1,0 +1,23 @@
+{
+  "root": "libs/shared/extensions/lang",
+  "sourceRoot": "libs/shared/extensions/lang/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/shared/extensions/lang/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/extensions/lang"],
+      "options": {
+        "jestConfig": "libs/shared/extensions/lang/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

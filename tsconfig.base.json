@@ -20,6 +20,9 @@
       ],
       "@techintell/api/feature-multitenancy/ui-api": [
         "libs/api/feature-multitenancy/ui-api/src/index.ts"
+      ],
+      "@techintell/shared/extensions/lang": [
+        "libs/shared/extensions/lang/src/index.ts"
       ]
     }
   },
