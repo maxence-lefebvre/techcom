@@ -15,12 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@techcom/api/feature-multitenancy/domain": [
-        "libs/api/feature-multitenancy/domain/src/index.ts"
-      ],
-      "@techcom/api/feature-multitenancy/ui-api": [
-        "libs/api/feature-multitenancy/ui-api/src/index.ts"
-      ],
       "@techcom/shared/extensions/lang": [
         "libs/shared/extensions/lang/src/index.ts"
       ]
