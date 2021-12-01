@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "maxence-lefebvre",
+      "name": "maxence-lefebvre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15971247?v=4",
+      "profile": "https://github.com/maxence-lefebvre",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "techcom",
+  "projectOwner": "maxence-lefebvre",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
