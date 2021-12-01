@@ -6,7 +6,7 @@ updates:
       # Check for updates to GitHub Actions every weekday
       interval: 'daily'
 
-  - package-ecosystem: 'yarn'
+  - package-ecosystem: 'npm'
     directory: '/'
     schedule:
       interval: 'daily'
