@@ -1,8 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "api": "apps/api",
-    "portal": "apps/portal",
-    "portal-e2e": "apps/portal-e2e"
+    "api": "apps/api"
   }
 }
