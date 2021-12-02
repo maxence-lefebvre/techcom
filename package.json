@@ -45,7 +45,7 @@
     "@nrwl/web": "13.2.3",
     "@nrwl/workspace": "13.2.3",
     "@storybook/addon-essentials": "~6.3.0",
-    "@storybook/addons": "^6.3.12",
+    "@storybook/addons": "^6.4.3",
     "@storybook/builder-webpack5": "~6.3.0",
     "@storybook/manager-webpack5": "~6.3.0",
     "@storybook/react": "~6.4.1",
