@@ -14,7 +14,6 @@ concurrency:
 jobs:
   pr:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'pull_request' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -25,19 +24,11 @@ jobs:
       - uses: ./.github/actions/setup-node
       - run: yarn install --frozen-lockfile
       - run: npx nx-cloud start-ci-run
+      - run: npx nx format:check
       - run: npx nx affected --target=lint --parallel
       - run: npx nx affected --target=test --parallel
       - run: npx nx affected --target=build --configuration production --parallel
       - run: npx nx-cloud stop-all-agents
-
-  trunk:
-    runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'pull_request' }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
       - run: ./trunk check --no-progress
 
   agents:
