@@ -15,6 +15,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@techcom/client/feature-authn/core": [
+        "libs/client/feature-authn/core/src/index.ts"
+      ],
+      "@techcom/client/feature-authn/ui-api": [
+        "libs/client/feature-authn/ui-api/src/index.ts"
+      ],
+      "@techcom/client/feature-authn/ui-component": [
+        "libs/client/feature-authn/ui-component/src/index.ts"
+      ],
       "@techcom/shared/extensions/lang": [
         "libs/shared/extensions/lang/src/index.ts"
       ]

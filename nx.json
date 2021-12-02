@@ -4,7 +4,7 @@
     "defaultBase": "main"
   },
   "cli": {
-    "defaultCollection": "@nrwl/next"
+    "defaultCollection": "@nrwl/nest"
   },
   "implicitDependencies": {
     "package.json": {
@@ -46,6 +46,19 @@
       "application": {
         "style": "scss",
         "linter": "eslint"
+      },
+      "library": {
+        "buildable": true
+      }
+    },
+    "@nrwl/nest": {
+      "library": {
+        "buildable": true
+      }
+    },
+    "@nrwl/node": {
+      "library": {
+        "buildable": true
       }
     }
   },

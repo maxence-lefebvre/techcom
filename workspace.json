@@ -2,6 +2,9 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "client-feature-authn-core": "libs/client/feature-authn/core",
+    "client-feature-authn-ui-api": "libs/client/feature-authn/ui-api",
+    "client-feature-authn-ui-component": "libs/client/feature-authn/ui-component",
     "portal": "apps/portal",
     "portal-e2e": "apps/portal-e2e",
     "shared-extensions-lang": "libs/shared/extensions/lang"

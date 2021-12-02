@@ -1,0 +1,44 @@
+{
+  "root": "libs/client/feature-authn/ui-component",
+  "sourceRoot": "libs/client/feature-authn/ui-component/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/client/feature-authn/ui-component",
+        "tsConfig": "libs/client/feature-authn/ui-component/tsconfig.lib.json",
+        "project": "libs/client/feature-authn/ui-component/package.json",
+        "entryFile": "libs/client/feature-authn/ui-component/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "assets": [
+          {
+            "glob": "libs/client/feature-authn/ui-component/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/client/feature-authn/ui-component/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/client/feature-authn/ui-component"],
+      "options": {
+        "jestConfig": "libs/client/feature-authn/ui-component/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
