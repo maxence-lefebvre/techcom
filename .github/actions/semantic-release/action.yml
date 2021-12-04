@@ -21,3 +21,5 @@ runs:
 
     - shell: bash
       run: yarn nx affected --target=version ${{ steps.resolve-semantic-release-args.outputs.release-args }}
+      env:
+        NX_CLOUD_DISTRIBUTED_EXECUTION: 'false'
