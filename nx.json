@@ -4,7 +4,7 @@
     "defaultBase": "main"
   },
   "cli": {
-    "defaultCollection": "@nrwl/next"
+    "defaultCollection": "@nrwl/nest"
   },
   "implicitDependencies": {
     "package.json": {
@@ -40,12 +40,6 @@
     "@nrwl/react": {
       "application": {
         "babel": true
-      }
-    },
-    "@nrwl/next": {
-      "application": {
-        "style": "scss",
-        "linter": "eslint"
       }
     }
   }
