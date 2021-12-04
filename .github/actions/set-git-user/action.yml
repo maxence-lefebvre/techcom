@@ -1,0 +1,18 @@
+name: Set git user
+description: Defaults to GitHub Action
+inputs:
+  name:
+    description: The name of the git user
+    default: GitHub Action
+    required: false
+  email:
+    description: The email of the git user
+    default: action@github.com
+    required: false
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        git config --local user.email "${{ inputs.email }}"
+        git config --local user.name "${{ inputs.name }}"

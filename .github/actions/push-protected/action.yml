@@ -1,0 +1,44 @@
+name: 'Push to protected branch'
+description: 'Unprotect branch and re-protect branch if necessary'
+inputs:
+  branch:
+    description: The branch to push
+    default: main
+    required: false
+  remote:
+    description: The remote to push to
+    default: origin
+    required: false
+  github-token:
+    description: A PAT with admin role on the repository
+    required: true
+runs:
+  using: composite
+  steps:
+    - id: is-protected
+      name: Check if the branch is protected
+      shell: bash
+      run: echo "::set-output name=is-protected::$(gh api "$API_URL" | jq ".enabled")"
+      env:
+        API_URL: /repos/{owner}/{repo}/branches/${{ inputs.branch }}/protection/enforce_admins
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+
+    - name: Unprotect branch if it was protected
+      if: ${{ "steps.is-protected.outputs.is-protected" == "true" }}
+      shell: bash
+      run: gh api -X DELETE "$API_URL"
+      env:
+        API_URL: /repos/{owner}/{repo}/branches/${{ inputs.branch }}/protection/enforce_admins
+        GITHUB_TOKEN: ${{ inputs.github-token }}
+
+    - name: Push
+      shell: bash
+      run: git push ${{ inputs.remote }} ${{ inputs.branch }} --tags
+
+    - name: Reprotect branch if it was protected
+      if: ${{ "steps.is-protected.outputs.is-protected" == "true" }}
+      shell: bash
+      run: gh api -X POST "$API_URL"
+      env:
+        API_URL: /repos/{owner}/{repo}/branches/${{ inputs.branch }}/protection/enforce_admins
+        GITHUB_TOKEN: ${{ inputs.github-token }}

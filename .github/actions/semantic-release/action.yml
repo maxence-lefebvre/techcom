@@ -1,0 +1,23 @@
+name: 'Semantic release'
+description: 'Version affected projects, dry run if PR'
+runs:
+  using: 'composite'
+  steps:
+    # Prepare releases
+
+    - uses: ./.github/actions/set-git-user
+
+    # Resolve semantic release args
+
+    - name: Resolve Semantic Release args
+      id: resolve-semantic-release-args
+      shell: bash
+      run: |
+        if [ "${{ github.event.pull_request.base.ref }}" == "master" ]; then ARGS="--dry-run"; fi;
+        if [ "${{ github.ref }}" == "master" ]; then ARGS=""; fi;
+        echo "::set-output name=release-args::${ARGS}"
+
+    # Dry runs releases
+
+    - shell: bash
+      run: yarn nx affected --target=version ${{ steps.resolve-semantic-release-args.outputs.release-args }}

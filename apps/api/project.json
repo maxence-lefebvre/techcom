@@ -17,12 +17,8 @@
           "optimization": true,
           "extractLicenses": true,
           "inspect": false,
-          "fileReplacements": [
-            {
-              "replace": "apps/api/src/environments/environment.ts",
-              "with": "apps/api/src/environments/environment.prod.ts"
-            }
-          ]
+          "generatePackageJson": true,
+          "fileReplacements": []
         }
       }
     },
@@ -45,6 +41,14 @@
       "options": {
         "jestConfig": "apps/api/jest.config.js",
         "passWithNoTests": true
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "noVerify": true,
+        "push": false,
+        "commitMessageFormat": "chore(release): bump ${projectName} to ${version} [skip ci]"
       }
     }
   },
