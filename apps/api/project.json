@@ -47,8 +47,7 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "noVerify": true,
-        "push": false,
-        "commitMessageFormat": "chore(release): bump ${projectName} to ${version} [skip ci]"
+        "push": false
       }
     },
     "docker": {
