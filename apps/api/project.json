@@ -17,12 +17,8 @@
           "optimization": true,
           "extractLicenses": true,
           "inspect": false,
-          "fileReplacements": [
-            {
-              "replace": "apps/api/src/environments/environment.ts",
-              "with": "apps/api/src/environments/environment.prod.ts"
-            }
-          ]
+          "generatePackageJson": true,
+          "fileReplacements": []
         }
       }
     },
@@ -45,6 +41,40 @@
       "options": {
         "jestConfig": "apps/api/jest.config.js",
         "passWithNoTests": true
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "noVerify": true,
+        "push": false,
+        "commitMessageFormat": "chore(release): bump ${projectName} to ${version} [skip ci]"
+      }
+    },
+    "docker": {
+      "executor": "@nx-tools/nx-docker:build",
+      "options": {
+        "file": "service.Dockerfile",
+        "push": false,
+        "tags": ["techintell/api:local"],
+        "build-args": ["PACKAGE_PATH=apps/api"]
+      },
+      "configurations": {
+        "production": {
+          "push": true,
+          "metadata": {
+            "images": ["${DOCKER_REGISTRY}/${DOCKER_NAMESPACE}/api"],
+            "__tags_comment__": "see https://github.com/docker/metadata-action",
+            "flavor": ["latest=auto"],
+            "tags": [
+              "type=ref,event=branch",
+              "type=ref,event=pr",
+              "type=semver,pattern={{version}}",
+              "type=semver,pattern={{major}}.{{minor}}",
+              "type=semver,pattern={{major}}"
+            ]
+          }
+        }
       }
     }
   },
