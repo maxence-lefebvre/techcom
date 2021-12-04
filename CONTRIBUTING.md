@@ -2,7 +2,7 @@
 
 We love pull requests. And following this guidelines will make your pull request easier to merge.
 
-If you want to contribute but don’t know what to do, take a look at these two labels: [help wanted](https://github.com/maxence-lefebvre/techintell/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/maxence-lefebvre/techintell/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+If you want to contribute but don’t know what to do, take a look at these two labels: [help wanted](https://github.com/maxence-lefebvre/techcom/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) and [good first issue](https://github.com/maxence-lefebvre/techcom/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 _[Use GitHub interface](https://blog.sapegin.me/all/open-source-for-everyone/) for simple documentation changes, otherwise follow the steps below._
 
@@ -40,4 +40,5 @@ npm run test:watch
 
 ## Need help?
 
-If you want to contribute but have any questions, concerns or doubts, feel free to ping maintainers. Ideally create a pull request with `WIP` (Work in progress) in its title and ask questions in the pull request description.
+If you want to contribute but have any questions, concerns or doubts, feel free to ping maintainers.
+Ideally create a pull request with `WIP` (Work in progress) in its title and ask questions in the pull request description.
