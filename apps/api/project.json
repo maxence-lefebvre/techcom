@@ -68,9 +68,9 @@
             "tags": [
               "type=ref,event=branch",
               "type=ref,event=pr",
-              "type=match,pattern=\\w+-v(\\d+.\\d+.\\d+),group=1",
-              "type=match,pattern=\\w+-v(\\d+.\\d+).\\d+,group=1",
-              "type=match,pattern=\\w+-v(\\d+).\\d+.\\d+,group=1"
+              "type=match,pattern=api-(\\d+\\.\\d+\\.\\d+),group=1",
+              "type=match,pattern=api-(\\d+\\.\\d+)\\.\\d+,group=1",
+              "type=match,pattern=api-(\\d+)\\.\\d+\\.\\d+,group=1"
             ]
           }
         }

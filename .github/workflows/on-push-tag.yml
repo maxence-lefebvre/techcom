@@ -12,7 +12,7 @@ env:
   DOCKER_NAMESPACE: ${{ github.repository }}
 
 jobs:
-  pr:
+  publish-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
