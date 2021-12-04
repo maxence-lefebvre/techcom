@@ -3,8 +3,9 @@ cli:
   version: 0.3.1-beta
 lint:
   enabled:
-    - actionlint@1.6.4
+    - actionlint@1.6.8
     - gitleaks@7.6.1
+    - hadolint@2.8.0
     - markdownlint@0.29.0
     - shellcheck@0.7.2
     - shfmt@3.4.0

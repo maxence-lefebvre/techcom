@@ -33,7 +33,7 @@ runs:
 
     - name: Push
       shell: bash
-      run: git push ${{ inputs.remote }} ${{ inputs.branch }} --tags
+      run: git push --follow-tags ${{ remote }} HEAD
 
     - name: Reprotect branch if it was protected
       if: ${{ "steps.is-protected.outputs.is-protected" == "true" }}

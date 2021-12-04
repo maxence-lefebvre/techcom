@@ -45,6 +45,7 @@
     "@nrwl/tao": "13.2.3",
     "@nrwl/web": "13.2.3",
     "@nrwl/workspace": "13.2.3",
+    "@nx-tools/nx-docker": "^2.0.2",
     "@storybook/addon-essentials": "~6.3.0",
     "@storybook/addons": "^6.4.3",
     "@storybook/builder-webpack5": "~6.4.4",

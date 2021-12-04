@@ -1,0 +1,10 @@
+name: Production
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "TODO Promote to production environment"

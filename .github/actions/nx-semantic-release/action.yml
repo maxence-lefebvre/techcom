@@ -5,7 +5,7 @@ runs:
   steps:
     # Prepare releases
 
-    - uses: ./.github/actions/set-git-user
+    - uses: ./.github/actions/git-set-user
 
     # Resolve semantic release args
 
@@ -20,6 +20,6 @@ runs:
     # Dry runs releases
 
     - shell: bash
-      run: yarn nx affected --target=version ${{ steps.resolve-semantic-release-args.outputs.release-args }}
+      run: npx nx affected --target=version ${{ steps.resolve-semantic-release-args.outputs.release-args }}
       env:
         NX_CLOUD_DISTRIBUTED_EXECUTION: 'false'
