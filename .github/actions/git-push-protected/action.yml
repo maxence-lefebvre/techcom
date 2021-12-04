@@ -24,7 +24,7 @@ runs:
         GITHUB_TOKEN: ${{ inputs.github-token }}
 
     - name: Unprotect branch if it was protected
-      if: ${{ steps.is-protected.outputs.is-protected == "true" }}
+      if: steps.is-protected.outputs.is-protected == "true"
       shell: bash
       run: gh api -X DELETE "$API_URL"
       env:
@@ -36,7 +36,7 @@ runs:
       run: git push --follow-tags ${{ inputs.remote }} HEAD
 
     - name: Reprotect branch if it was protected
-      if: ${{ steps.is-protected.outputs.is-protected == "true" }}
+      if: steps.is-protected.outputs.is-protected == "true"
       shell: bash
       run: gh api -X POST "$API_URL"
       env:
