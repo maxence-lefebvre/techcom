@@ -13,4 +13,4 @@ updates:
     ignore:
       # Use migrations to update @nrwl/* updates.
       # Run `yarn nx migrate latest` instead
-      - name: '@nrwl/*'
+      - dependency-name: '@nrwl/*'
