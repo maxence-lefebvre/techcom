@@ -27,6 +27,7 @@ jobs:
       - uses: ./.github/actions/node-setup
       - uses: ./.github/actions/docker-setup
       - name: Log in to the Container registry
+        if: ${{ github.actor != 'dependabot[bot]' }}
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
         with:
           registry: ghcr.io
@@ -41,6 +42,7 @@ jobs:
       - uses: ./.github/actions/nx-semantic-release
       - run: npx nx affected --target=build --configuration production --parallel
       - run: npx nx affected --target=docker --configuration production --parallel
+        if: ${{ github.actor != 'dependabot[bot]' }}
         env:
           NX_CLOUD_DISTRIBUTED_EXECUTION: 'false'
           INPUT_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
