@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Techcom',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://maxence-lefebvre.github.io',
+  baseUrl: '/techcom/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

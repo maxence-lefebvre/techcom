@@ -20,6 +20,12 @@
         "noVerify": true,
         "push": false
       }
+    },
+    "pages": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "gh-pages -d dist/apps/docs -m \"chore(docs): deploy docs updates\""
+      }
     }
   },
   "tags": []
