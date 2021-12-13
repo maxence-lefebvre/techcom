@@ -57,7 +57,7 @@
     "@storybook/manager-webpack5": "6.4.9",
     "@storybook/react": "6.4.9",
     "@storybook/theming": "^6.3.12",
-    "@svgr/webpack": "^6.1.1",
+    "@svgr/webpack": "^6.1.2",
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
     "@types/jest": "27.0.3",
