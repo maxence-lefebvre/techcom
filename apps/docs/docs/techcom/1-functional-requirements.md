@@ -1,6 +1,6 @@
 ---
 sidebar_label: Func. Requirements
-slug: /functional-requirements
+slug: /techcom-functional-requirements
 ---
 
 # Functional Requirements
