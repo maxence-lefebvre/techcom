@@ -14,7 +14,7 @@
     "@docusaurus/core": "^2.0.0-alpha.70",
     "@docusaurus/preset-classic": "^2.0.0-alpha.70",
     "@mdx-js/react": "^1.6.21",
-    "@nestjs/common": "^8.0.0",
+    "@nestjs/common": "^8.2.4",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.2.4",
     "clsx": "^1.1.1",
