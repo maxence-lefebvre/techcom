@@ -6,6 +6,9 @@
       "executor": "@nx-plus/docusaurus:browser",
       "options": {
         "outputPath": "dist/apps/docs"
+      },
+      "configurations": {
+        "production": {}
       }
     },
     "serve": {

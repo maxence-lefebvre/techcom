@@ -1,9 +1,9 @@
 ---
 sidebar_label: 0002 Use monorepo
-slug: /adr-use-monorepo
+slug: /adr-0002-use-monorepo
 ---
 
-# 1. Record architecture decisions
+# 1. Use a monorepo
 
 Date: 2021-12-24
 
