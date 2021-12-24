@@ -21,10 +21,25 @@
         "push": false
       }
     },
-    "pages": {
+    "deploy": {
       "executor": "@nrwl/workspace:run-commands",
       "options": {
         "command": "gh-pages -d dist/apps/docs -m \"chore(docs): deploy docs updates\""
+      },
+      "dependsOn": [
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ],
+      "configurations": {
+        "production": {
+          "commands": [
+            "git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git",
+            "gh-pages -u \"github-actions-bot <support+actions@github.com>\" -d dist/apps/docs -m \"chore(docs): deploy docs updates\""
+          ],
+          "parallel": false
+        }
       }
     }
   },
