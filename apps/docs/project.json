@@ -27,7 +27,9 @@
     "deploy": {
       "executor": "@nrwl/workspace:run-commands",
       "options": {
-        "command": "gh-pages -d dist/apps/docs -m \"chore(docs): deploy docs updates\""
+        "commands": [
+          "gh-pages -d dist/apps/docs -m \"chore(docs): deploy docs updates\""
+        ]
       },
       "dependsOn": [
         {
@@ -39,6 +41,8 @@
         "production": {
           "commands": [
             "git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git",
+            "git config user.name \"github-actions-bot\"",
+            "git config user.email \"support+actions@github.com\"",
             "gh-pages -u \"github-actions-bot <support+actions@github.com>\" -d dist/apps/docs -m \"chore(docs): deploy docs updates\""
           ],
           "parallel": false
