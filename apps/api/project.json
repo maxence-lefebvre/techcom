@@ -7,6 +7,7 @@
       "executor": "@nrwl/node:build",
       "outputs": ["{options.outputPath}"],
       "options": {
+        "generatePackageJson": true,
         "outputPath": "dist/apps/api",
         "main": "apps/api/src/main.ts",
         "tsConfig": "apps/api/tsconfig.app.json",
@@ -17,7 +18,6 @@
           "optimization": true,
           "extractLicenses": true,
           "inspect": false,
-          "generatePackageJson": true,
           "fileReplacements": []
         }
       }
@@ -58,6 +58,12 @@
         "tags": ["techintell/api:local"],
         "build-args": ["PACKAGE_PATH=apps/api"]
       },
+      "dependsOn": [
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ],
       "configurations": {
         "production": {
           "push": true,
