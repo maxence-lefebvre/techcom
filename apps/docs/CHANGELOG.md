@@ -2,6 +2,10 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.4](https://github.com/maxence-lefebvre/techcom/compare/docs-0.1.3...docs-0.1.4) (2021-12-24)
+
+
+
 ## [0.1.3](https://github.com/maxence-lefebvre/techcom/compare/docs-0.1.2...docs-0.1.3) (2021-12-23)
 
 
