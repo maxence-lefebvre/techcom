@@ -7,4 +7,6 @@ slug: /techcom-bounded-contexts
 
 ## Posts
 
+## Sharing
+
 ## Bounded Contexts Map
