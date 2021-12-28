@@ -2378,10 +2378,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@jscutlery/semver@^2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@jscutlery/semver/-/semver-2.16.0.tgz#d3b132ccd831015139265e01e2a3d9056227a56a"
-  integrity sha512-8DfFY52Sz3K6ccjz5W3nzav4VBhClUh8cFgg+G4UtPZdFY/Dbpx++LYnREIXsXJmtktVj8+3z8AiRBiO7xYfiQ==
+"@jscutlery/semver@^2.16.1":
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/@jscutlery/semver/-/semver-2.16.1.tgz#f80d423863c84a35fe680f9edeb6704408e51bda"
+  integrity sha512-DtJEWIshjqvc8ODmiIV42B3zY0XCEHZzgtoEAKeCUNzC3ADQtmxxiBTl/BxXCTG33j23kzCmEqNt3MY9GWfXaw==
   dependencies:
     "@nrwl/devkit" "^13.0.2"
     inquirer "^8.2.0"
