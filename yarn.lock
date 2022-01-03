@@ -3019,47 +3019,47 @@
     rxjs "6.5.5"
     typescript "4.3.5"
 
-"@nx-tools/ci-context@2.0.1", "@nx-tools/ci-context@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@nx-tools/ci-context/-/ci-context-2.0.1.tgz#3de717f78f34d8c9b7faf1616a7ac4fe78da0eb2"
-  integrity sha512-YhJB4+YOYk7KeZWPVF9L7Er2rhdKxrPEIYkXFIZ1CBBq8gIgL9faDmiQ6cQMvymknZctBOQNF1opt7AEbua/Pg==
+"@nx-tools/ci-context@2.2.0", "@nx-tools/ci-context@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@nx-tools/ci-context/-/ci-context-2.2.0.tgz#b08c6e4155ffc401e120f22708b1247a2eb50568"
+  integrity sha512-nKH5TX/a1gFOZFbBtFqoJNqOJ6XaB8Uht0L8B1myWFhpxrbZ2XLbE05OxyJRC4JMeOggMqD2EiIycQ0fCKtYLw==
   dependencies:
     "@actions/github" "^5.0.0"
-    "@nx-tools/core" "^2.0.1"
+    "@nx-tools/core" "^2.2.0"
     ci-info "^3.2.0"
 
-"@nx-tools/core@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@nx-tools/core/-/core-2.0.1.tgz#212f8ef16debeefd22d27e9d8426e693990cae6c"
-  integrity sha512-DYKPo/sS0UdsZZPl2LBWuJp4WuO3kN/sW3ojQAzmtQuXt4xptOvHRHe/buBlbsK9NV7Kbb6+K6PhFdOkxRZEVQ==
+"@nx-tools/core@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@nx-tools/core/-/core-2.2.0.tgz#77ed5b0e3aa50f424950b4fc438b08e084eba0a4"
+  integrity sha512-bDzLcLbkA3V7w44qE+wIzephcaoUyQwqiHRXlvjGFGLEcn56SGBiQFZxWio3uYhZ6PKLSlaHhTMvvoyyAJuoWQ==
   dependencies:
     "@actions/exec" "^1.1.0"
 
-"@nx-tools/docker-metadata@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@nx-tools/docker-metadata/-/docker-metadata-2.0.1.tgz#0d697ddfc4c6a232efee96d84ba37bfb057773f9"
-  integrity sha512-l/nu2c/kTUcPEKP6o336w2i01NncgdNySXjidg3kqgm4YNbxI1D1N00e+vaQI0Hb97Jc3DR6pUjVhEx/Lc/HBA==
+"@nx-tools/docker-metadata@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@nx-tools/docker-metadata/-/docker-metadata-2.2.0.tgz#37e18eda44ae5bdbda4fe31679a2e4e350c3fa7b"
+  integrity sha512-xYnylqRrQo+HMPFzCSclSTZ2cKa5pvrLWmvYI4R6nAVvhOvRDoZg/bF9axUUoU6Cw5+M7FPvyPwF+3BGo95zwQ==
   dependencies:
-    "@nx-tools/ci-context" "^2.0.1"
-    "@nx-tools/core" "^2.0.1"
-    "@renovate/pep440" "1.0.0"
+    "@nx-tools/ci-context" "^2.2.0"
+    "@nx-tools/core" "^2.2.0"
+    "@renovate/pep440" "^1.0.0"
     csv-parse "^4.16.3"
     handlebars "^4.7.7"
     moment "^2.29.1"
     semver "^7.3.5"
 
-"@nx-tools/nx-docker@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@nx-tools/nx-docker/-/nx-docker-2.0.2.tgz#cecf9e78c9b998c5552c4e93195b6bde85dbf7d2"
-  integrity sha512-UDc/y5cAS6aYbTWRGdUVVV9Kh7BPw/hK3eTvpcL+2s4gKNOH+GinstPO9gkagiiasqZS+TY9wz6QqopQebizxA==
+"@nx-tools/nx-docker@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@nx-tools/nx-docker/-/nx-docker-2.2.0.tgz#fedec42b2962f7612c22e9b56d71a04fdae86e2e"
+  integrity sha512-dHcaXdUYP5hZlVTmUv5C8gCUWVBAAI9eOz1G0DR1xbx603nJZQ8TSxeIRuxyZPek7RreVGGBNv8h5bM4iGF+RA==
   dependencies:
-    "@nx-tools/ci-context" "2.0.1"
-    "@nx-tools/core" "^2.0.1"
+    "@nx-tools/ci-context" "2.2.0"
+    "@nx-tools/core" "^2.2.0"
     csv-parse "^4.16.3"
     semver "^7.3.5"
     tmp "^0.2.1"
   optionalDependencies:
-    "@nx-tools/docker-metadata" "^2.0.1"
+    "@nx-tools/docker-metadata" "^2.2.0"
 
 "@octokit/auth-token@^2.4.4":
   version "2.5.0"
@@ -3187,7 +3187,7 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
   integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
 
-"@renovate/pep440@1.0.0":
+"@renovate/pep440@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@renovate/pep440/-/pep440-1.0.0.tgz#9e05cac649b6a3d027cba7f2939b085de78f39ea"
   integrity sha512-k3pZVxGEGpU7rpH507/9vxfFjuxX7qx4MSj9Fk+6zBsf/uZmAy8x97dNtZacbge7gP9TazbW1d7SEb5vsOmKlw==
