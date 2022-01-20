@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/core": "7.16.10",
     "@babel/preset-typescript": "7.16.7",
-    "@commitlint/cli": "^15.0.0",
+    "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@fontsource/fira-code": "^4.5.2",
     "@fontsource/montserrat": "^4.5.2",
