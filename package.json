@@ -51,7 +51,7 @@
     "@nrwl/workspace": "13.4.6",
     "@nx-plus/docusaurus": "^12.2.0",
     "@nx-tools/nx-docker": "^2.2.0",
-    "@storybook/addon-essentials": "6.4.13",
+    "@storybook/addon-essentials": "6.4.14",
     "@storybook/addons": "^6.4.12",
     "@storybook/builder-webpack5": "6.4.14",
     "@storybook/manager-webpack5": "6.4.14",
