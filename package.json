@@ -52,7 +52,7 @@
     "@nx-plus/docusaurus": "^12.2.0",
     "@nx-tools/nx-docker": "^2.2.0",
     "@storybook/addon-essentials": "6.4.14",
-    "@storybook/addons": "^6.4.12",
+    "@storybook/addons": "^6.4.17",
     "@storybook/builder-webpack5": "6.4.15",
     "@storybook/manager-webpack5": "6.4.15",
     "@storybook/react": "6.4.15",
