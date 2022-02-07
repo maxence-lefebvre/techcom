@@ -2158,10 +2158,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/fira-code@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.3.tgz#4fbbd33809e155b29cf7f46c1007af6290c21b2f"
-  integrity sha512-meWrJ8AQEz+qPyV2ivLhWkqOjO49CAlvdgjJTDeYl7kViyPrz5GBxasL4o4/bfOFzexJP9yP0RiW4CQFGoPeuQ==
+"@fontsource/fira-code@^4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.4.tgz#a8ec2347cf7261b2bf14065e66c734dde7145432"
+  integrity sha512-VXA5wQqU8ieKD3n2wKA+0asywXXkgJc4JxR3IAfVEnRKcz93xd0UpZtmgL3sPeWZQSPc194yikIi0y2hxSGDpA==
 
 "@fontsource/montserrat@^4.5.3":
   version "4.5.3"
@@ -3075,38 +3075,38 @@
     "@nx-tools/core" "^2.2.0"
     ci-info "^3.2.0"
 
-"@nx-tools/core@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@nx-tools/core/-/core-2.2.0.tgz#77ed5b0e3aa50f424950b4fc438b08e084eba0a4"
-  integrity sha512-bDzLcLbkA3V7w44qE+wIzephcaoUyQwqiHRXlvjGFGLEcn56SGBiQFZxWio3uYhZ6PKLSlaHhTMvvoyyAJuoWQ==
+"@nx-tools/core@^2.2.0", "@nx-tools/core@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@nx-tools/core/-/core-2.3.1.tgz#f87036c7f7b8b4666591e7a000de9922fc6f7a1b"
+  integrity sha512-OPTRnFtiyR4loNJr/zf7jq7vtDqdJBOtUmRuRE5holB06VCT+chR8hWmArkegdJEYaOvlDSSd0OT5uLtT4A2Uw==
   dependencies:
     "@actions/exec" "^1.1.0"
 
-"@nx-tools/docker-metadata@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@nx-tools/docker-metadata/-/docker-metadata-2.2.0.tgz#37e18eda44ae5bdbda4fe31679a2e4e350c3fa7b"
-  integrity sha512-xYnylqRrQo+HMPFzCSclSTZ2cKa5pvrLWmvYI4R6nAVvhOvRDoZg/bF9axUUoU6Cw5+M7FPvyPwF+3BGo95zwQ==
+"@nx-tools/docker-metadata@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@nx-tools/docker-metadata/-/docker-metadata-2.2.1.tgz#46592d9843ad53f55983c83bdaf31f786bb40aea"
+  integrity sha512-MMQuDNarjOX9weg2+frBeIb2bVO+Fjlmf2Fl2yoGxB02MJl8NYao3MFjRZxt7pKKmPdiGiNGswF2xqJz+55FKQ==
   dependencies:
     "@nx-tools/ci-context" "^2.2.0"
-    "@nx-tools/core" "^2.2.0"
+    "@nx-tools/core" "^2.3.1"
     "@renovate/pep440" "^1.0.0"
     csv-parse "^4.16.3"
     handlebars "^4.7.7"
     moment "^2.29.1"
     semver "^7.3.5"
 
-"@nx-tools/nx-docker@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@nx-tools/nx-docker/-/nx-docker-2.2.0.tgz#fedec42b2962f7612c22e9b56d71a04fdae86e2e"
-  integrity sha512-dHcaXdUYP5hZlVTmUv5C8gCUWVBAAI9eOz1G0DR1xbx603nJZQ8TSxeIRuxyZPek7RreVGGBNv8h5bM4iGF+RA==
+"@nx-tools/nx-docker@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@nx-tools/nx-docker/-/nx-docker-2.3.0.tgz#738aa16b39a6add55caf0f95cb5055e3b45ca2f7"
+  integrity sha512-47EECPQhRO04gqw21YCeS1c4znWcLjXIxhLAG1bcXVVHLOImKxqWIVqjzRfeH8+VbRkiwwkREPJ+3O2kvIKkNw==
   dependencies:
     "@nx-tools/ci-context" "2.2.0"
-    "@nx-tools/core" "^2.2.0"
+    "@nx-tools/core" "^2.3.1"
     csv-parse "^4.16.3"
     semver "^7.3.5"
     tmp "^0.2.1"
   optionalDependencies:
-    "@nx-tools/docker-metadata" "^2.2.0"
+    "@nx-tools/docker-metadata" "^2.2.1"
 
 "@octokit/auth-token@^2.4.4":
   version "2.5.0"
