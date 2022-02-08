@@ -2163,10 +2163,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.4.tgz#a8ec2347cf7261b2bf14065e66c734dde7145432"
   integrity sha512-VXA5wQqU8ieKD3n2wKA+0asywXXkgJc4JxR3IAfVEnRKcz93xd0UpZtmgL3sPeWZQSPc194yikIi0y2hxSGDpA==
 
-"@fontsource/montserrat@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-4.5.3.tgz#30e8943df4f9904b7379a27304073837193b53b3"
-  integrity sha512-VT+wPK/PHWwqm7r6UbTjI+oj31obzj9+V9HSUl8tcuKtv4deYuH+OAbMf5RG62uVDT8wiZ8QyCbr5gmfHQ3ykg==
+"@fontsource/montserrat@^4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-4.5.4.tgz#6b7eab9e97d0169ed571af12a6527bf4ecd3a119"
+  integrity sha512-oqNthItCJ4cB66rShKzrnyF624Gj+kcuKx1Xz5IdF5XQQpkiIYUbPx4L92vmxwgOkC+5G9vhg/bJnba5nWvKnw==
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"
