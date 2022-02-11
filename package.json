@@ -32,7 +32,7 @@
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "@fontsource/fira-code": "^4.5.4",
-    "@fontsource/montserrat": "^4.5.4",
+    "@fontsource/montserrat": "^4.5.5",
     "@jscutlery/semver": "^2.18.1",
     "@nestjs/schematics": "^8.0.6",
     "@nestjs/testing": "^8.2.6",
