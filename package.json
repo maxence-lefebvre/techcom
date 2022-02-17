@@ -30,7 +30,7 @@
     "@babel/core": "7.17.2",
     "@babel/preset-typescript": "7.16.7",
     "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/config-conventional": "^16.2.1",
     "@fontsource/fira-code": "^4.5.5",
     "@fontsource/montserrat": "^4.5.5",
     "@jscutlery/semver": "^2.18.1",
