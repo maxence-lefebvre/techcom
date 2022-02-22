@@ -2559,10 +2559,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     sourcemap-codec "1.4.8"
 
-"@jscutlery/semver@^2.18.1":
-  version "2.18.1"
-  resolved "https://registry.yarnpkg.com/@jscutlery/semver/-/semver-2.18.1.tgz#6a21adc5691f02d5270e0fa2bff8d69aa440d5a8"
-  integrity sha512-yvi5cg4KQX+PQXT7IeD8tt3i3fwflh+dg+QNmzDl6lOWKGWEShpxilFlyFRqhYuuSAcaWwkbYJTL4OL7Cg5kCQ==
+"@jscutlery/semver@^2.19.3":
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/@jscutlery/semver/-/semver-2.19.3.tgz#e1fc205377ba47749a5682b7a24cfaa1cf1680fa"
+  integrity sha512-rA4uvHQWSDZgTUYrKgdqyE0jFPcIlEcP8OkEB/971mWlCYG6nTLLrGInTozOYrnFgZ3LW5LNnnXwtplrwUu7bg==
   dependencies:
     "@nrwl/devkit" "^13.0.2"
     inquirer "^8.2.0"
