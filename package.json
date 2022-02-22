@@ -35,7 +35,7 @@
     "@fontsource/montserrat": "^4.5.5",
     "@jscutlery/semver": "^2.19.3",
     "@nestjs/schematics": "^8.0.6",
-    "@nestjs/testing": "^8.3.0",
+    "@nestjs/testing": "^8.3.1",
     "@nrwl/cli": "13.4.6",
     "@nrwl/cypress": "13.4.6",
     "@nrwl/eslint-plugin-nx": "13.4.6",
