@@ -9,7 +9,7 @@
   "private": true,
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "^2.0.0-beta.15",
+    "@docusaurus/preset-classic": "^2.0.0-beta.18",
     "@mdx-js/react": "^1.6.21",
     "@nestjs/common": "^8.4.2",
     "@nestjs/core": "^8.4.2",
