@@ -3020,10 +3020,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/fira-code@^4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.5.tgz#6e3ccb1095e3411d2c62b8f8cefb546b973c6eb9"
-  integrity sha512-bwsPmA5HW11SR0oIkgqSJYI3A8KP8aQLRCCH/EnR9gLHRuTFi1iG7GQ3wDTKy/AhECQJAKjXZ+mkVKlMxUaYCQ==
+"@fontsource/fira-code@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.8.tgz#968e281e81f9be32655d7e1991c0e076da8d6b01"
+  integrity sha512-blF2jTGyeQ6gMwE+hNk6dNKpYqUDEWXM9iJW1YxduvHufrQL3LQs1juhrtcaCbuCH5FYYfRfNI1y3Ohom618eQ==
 
 "@fontsource/montserrat@^4.5.5":
   version "4.5.5"

@@ -28,7 +28,7 @@
     "@babel/preset-typescript": "7.16.7",
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
-    "@fontsource/fira-code": "^4.5.5",
+    "@fontsource/fira-code": "^4.5.8",
     "@fontsource/montserrat": "^4.5.5",
     "@jscutlery/semver": "^2.19.3",
     "@nestjs/schematics": "^8.0.7",
