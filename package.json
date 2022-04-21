@@ -31,7 +31,7 @@
     "@fontsource/fira-code": "^4.5.8",
     "@fontsource/montserrat": "^4.5.5",
     "@jscutlery/semver": "^2.19.3",
-    "@nestjs/schematics": "^8.0.7",
+    "@nestjs/schematics": "^8.0.10",
     "@nestjs/testing": "^8.4.4",
     "@nrwl/cli": "13.4.6",
     "@nrwl/cypress": "13.9.4",
