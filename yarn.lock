@@ -3025,10 +3025,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.8.tgz#968e281e81f9be32655d7e1991c0e076da8d6b01"
   integrity sha512-blF2jTGyeQ6gMwE+hNk6dNKpYqUDEWXM9iJW1YxduvHufrQL3LQs1juhrtcaCbuCH5FYYfRfNI1y3Ohom618eQ==
 
-"@fontsource/montserrat@^4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-4.5.5.tgz#3408b8a20285a81b0743087bae5ed7aaa32c490c"
-  integrity sha512-JEFI803levuRx3D0Lry4WoM/Azrc3xpHlogi2022Y8ykaAenXvrjMym2BVU1W5QsuRIL86vrSUaxchO7Vk4CIw==
+"@fontsource/montserrat@^4.5.7":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-4.5.7.tgz#5fa342958655d3309eeae552a409f75a5453173f"
+  integrity sha512-eROpR2P7faJpXtjPx7XGESSNJXT6zUKUnLuUalR8YRpAi7Z4Hg+++LSTRX2GItQDaQliScGapTW10cYunhQDiw==
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"
